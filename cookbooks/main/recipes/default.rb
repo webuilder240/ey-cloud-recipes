@@ -4,6 +4,8 @@
 #  }
 #end
 
+include_recipe 'delayed_job'
+
 # uncomment to deny access to /log, /config, and .git directories as well as any .yml files
 # include_recipe "deny-directories"
 
@@ -175,4 +177,3 @@
 
 #uncomment to include the motd customization related to the environment
 #include_recipe "env_motd"
-
